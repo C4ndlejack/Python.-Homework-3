@@ -14,7 +14,7 @@ def oddList(size):
     list_length = len(myList)
     while i < list_length:
         sum = sum + myList[i]
-        i += 1
+        i += 2
     print(f"Сумма элементов списка, стоящих на нечетных позициях равна - {sum}")
 
 oddList(int(input("Введите число: ")))
